@@ -13,11 +13,11 @@ class Solution {
         return ans == Integer.MAX_VALUE ? -1 : ans;
     }
     
-    // Main method to test the code
+    
     public static void main(String[] args) {
-        Solution solution = new Solution();  // ✅ FIXED
+        Solution solution = new Solution(); 
         
-        // Test cases
+        
         String test1 = "leetcode";
         String test2 = "loveleetcode";
         String test3 = "aabb";
